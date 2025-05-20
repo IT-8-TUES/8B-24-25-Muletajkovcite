@@ -1,0 +1,30 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    opacity: 8;
+}
+.img1{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+.img2{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top:120%;
+}
+.img3{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 200%;
+}
+.p1{
+    width: 18%;
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    color: white;
+}
