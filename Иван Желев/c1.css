@@ -28,3 +28,35 @@ body{
     top: 90%;
     color: white;
 }
+.p2{
+    width: 18%;
+    position: absolute;
+    left: 40%;
+    top: 165%;
+    color: white;
+}
+.p3{
+    width: 18%;
+    position: absolute;
+    left: 40%;
+    top: 245%;
+    color: white;
+}
+.cp1{
+        width: 99%;
+        height:20% ;
+        position: absolute;
+        left: 0%;
+        top:270%;
+        color: white;
+        background-color: black;
+       }
+ .cp1{
+        width: 99%;
+        height:20% ;
+        position: absolute;
+        left: 0%;
+        top:270%;
+        color: white;
+        background-color: black;
+       }
