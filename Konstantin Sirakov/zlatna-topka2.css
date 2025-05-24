@@ -1,0 +1,67 @@
+
+/* ЗАДЪЛЖИТЕЛНО използвай празен HTML файл, напр. <body></body> */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #111, #333);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Основен контейнер */
+body::before {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Header */
+body::after {
+  content:
+    "🏆 Златната топка\n" 
+    "Най-престижната индивидуална награда във футбола";
+  white-space: pre-line;
+  background-color: gold;
+  color: black;
+  text-align: center;
+  font-size: 3em;
+  padding: 2rem 1rem 1rem 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+/* История */
+body > div.history {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body > div.history::before {
+  content: "📜 История";
+  display: block;
+  font-size: 2em;
+  color: gold;
+  border-bottom: 2px solid gold;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+body > div.history::after {
+  content: "Златната топка (Ballon d'Or) е награда, създадена от списание France Football през 1956 г.\A Тя се присъжда на най-добрия футболист в света за дадена година, гласуван от спортни журналисти от цял свят.";
+  white-space: pre-line;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
